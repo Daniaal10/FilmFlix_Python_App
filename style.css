@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(43, 28, 179, 0.767);
+}
+
+header{
+    text-align: center;
+    background-color: rgb(51, 55, 58);
+    border-bottom: 4px solid rgb(0, 0, 0);
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+.app{
+    height: 600px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+/* @media screen and (max-width: 1400px){
+    .app{
+        height: 1000px;
+        width: 100%;
+        margin-top: 40px;
+    }
+} */
+
+@media screen and (max-width: 1200px){
+    .app{
+        height: 700px;
+        /* width: 100%; */
+    }
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 70%;
+        margin: auto;
+    }
+
+    .app{
+        height: 700px;
+        /* width: 100%; */
+    }
+}
